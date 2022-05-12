@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background: #fff;
+  }
+  
+  .progress-container {
+    height: 0.8rem;
+    width: 32rem;
+    border-radius: 0.4rem;
+  
+    background: #fff;
+    box-shadow: 0 0 3px -5px rgb(253, 2, 140), 0px 3px 150px rgb(2, 140, 253);
+  }
+  
+  .progress-container .progress {
+    height: 100%;
+    width: 0;
+    border-radius: 0.4rem;
+  
+    background: rgb(2, 140, 253);
+  
+    transition: width 0.4s ease;
+  }
+  
